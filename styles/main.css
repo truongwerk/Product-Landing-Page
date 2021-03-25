@@ -1,0 +1,116 @@
+html {
+  border: 0;
+  padding: 0;
+  box-sizing: content-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(205, 236, 226);
+  position: fixed;
+}
+#header a {
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid oldlace;
+  background-color: rgb(211, 214, 203);
+  font-weight: bolder;
+}
+#header-img {
+  height: 5em;
+}
+#main {
+  margin-top: 7em;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+form {
+  height: 10em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+form label {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: orangered;
+  background-color: rgb(0, 255, 0);
+}
+#submit {
+  margin-top: 0.4em;
+  width: 80%;
+  height: 2.5em;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+#email {
+  width: 16em;
+  height: 2.53em;
+
+  border-radius: 5px;
+}
+#feature {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-self: center;
+}
+.feature-sub {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 15em;
+  width: 40em;
+  border: orange 2px solid;
+  border-radius: 4px;
+}
+iframe {
+  margin-top: 4em;
+}
+#product {
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: space-around;
+}
+.product-sub {
+  margin: 3em;
+  width: 17em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-self: center;
+  border:1px solid orange;
+}
+
+.product-sub img {
+  width: 7em;
+}
+@media only screen and (max-width:800px){
+  iframe{
+    width: 100%;
+    height: 15em;
+  }
+  .feature-sub{
+    width: 90%;
+  }
+  .feature-sub img{
+    width: 70%;
+    height: 70%;
+  }
+}
